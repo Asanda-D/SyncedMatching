@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Synced</string>
+    <string name="title_home">Tuis</string>
+    <string name="title_dashboard">Paneelbord</string>
+    <string name="title_notifications">Kennisgewings</string>
+    <!-- Notification permission messages -->
+    <string name="notifications_enabled">Kennisgewings aangeskakel!</string>
+    <string name="notifications_denied">Kennisgewings gedeaktiveer!</string>
+    <string name="notifications_already_enabled">Kennisgewings reeds aangeskakel</string>
+    <string name="allow_notifications_message">Laat asseblief kennisgewings toe om gekoppel te bly</string>
+    <string name="hello_blank_fragment">Hallo leë fragment</string>
+    <string name="red_color">Rooi kleur</string>
+    <string name="green_color">Groen kleur</string>
+    <string name="yellow_colour">Geel kleur</string>
+    <string name="blue_color">Blou kleur</string>
+    <string name="purple_color">Pers kleur</string>
+    <string name="pink_color">Pienk kleur</string>
+    <string name="brown_color">Bruin kleur</string>
+    <string name="dark_green_color">Donkergroen kleur</string>
+    <string name="dark_blue_color">Donkerblou kleur</string>
+    <string name="gray_color">Grys kleur</string>
+    <string name="orange_color">Oranje kleur</string>
+    <string name="other_color">Ander</string>
+    <string name="join_synced">Sluit aan by Synced! 🎉</string>
+    <string name="choose_avatar">Kies jou karakter-avatar:</string>
+    <string name="register">Registreer</string>
+    <string name="login_hint">Het jy reeds ’n rekening? Meld aan</string>
+
+    <!-- Avatar content descriptions -->
+    <string name="avatar1_desc">Avatar opsie 1</string>
+    <string name="avatar2_desc">Avatar opsie 2</string>
+    <string name="avatar3_desc">Avatar opsie 3</string>
+    <string name="avatar4_desc">Avatar opsie 4</string>
+    <string name="avatar5_desc">Avatar opsie 5</string>
+    <string name="avatar6_desc">Avatar opsie 6</string>
+    <string name="avatar7_desc">Avatar opsie 7</string>
+    <string name="avatar8_desc">Avatar opsie 8</string>
+
+    <string name="home">Tuis</string>
+    <string name="messages">Boodskappe</string>
+    <string name="profile">Profiel</string>
+    <string name="settings">Instellings</string>
+    <string name="help">Hulp</string>
+
+    <string name="_3h_ago">3u gelede</string>
+    <string name="we_should_definitely_watch_that_movie_together">Ons moet daardie fliek beslis saam kyk!</string>
+    <string name="jordan_libra">Jordan (Weegskaal)</string>
+    <string name="_1h_ago">1u gelede</string>
+    <string name="thanks_for_the_book_recommendation">Dankie vir die boekaanbeveling!</string>
+    <string name="sam_gemini">Sam (Tweeling)</string>
+    <string name="_2m_ago">2m gelede</string>
+    <string name="i_love_the_office_want_to_play_a_game">Ek hou van The Office! Wil jy ’n speletjie speel 🎉?</string>
+    <string name="alex_aries">Alex (Ram)</string>
+
+    <string name="email">E-pos</string>
+    <string name="password">Wagwoord</string>
+    <string name="confirm_password">Bevestig wagwoord</string>
+    <string name="name">Naam</string>
+    <string name="todo">TAKE</string>
+
+    <string name="biometric_title">Biometriese Aanmelding</string>
+    <string name="biometric_subtitle">Gebruik jou vingerafdruk of gesig om aan te meld</string>
+    <string name="biometric_cancel">Kanselleer</string>
+
+    <!-- Choosing Intent Screen -->
+    <string name="back_to_questionnaire">← Terug na Vraelys</string>
+    <string name="choosing_title">Waarvoor soek jy? 👋</string>
+    <string name="choosing_subtitle">Kies jou hoofdoel (jy kan dit later verander)</string>
+
+    <string name="friendship_title">🤝 Vriendskap</string>
+    <string name="friendship_description">Vind wonderlike vriende om ervarings mee te deel</string>
+
+    <string name="dating_title">❤️ Afspraak</string>
+    <string name="dating_description">Ontdek betekenisvolle romantiese verbindings</string>
+
+    <string name="continue_to_matches">Gaan voort na Passings! 💞</string>
+    <!-- Choosing Intent Screen End-->
+
+    <!-- Profile Screen -->
+    <string name="profile_picture_desc">Profielprent</string>
+    <string name="name_age">Naam, Ouderdom</string>
+    <string name="looking_for">Op soek na: …</string>
+    <string name="about_me">Oor My</string>
+    <string name="gender_label1">Geslag:</string>
+    <string name="location_label">Ligging:</string>
+    <string name="hobbies_label1">Belangstellings:</string>
+    <string name="edit_profile">Wysig Profiel</string>
+    <!-- Profile Screen End-->
+
+    <!-- Questionnaire Screen -->
+    <string name="profile_questionnaire_title">Profielvraelys</string>
+    <string name="birthday_label">🎂 Verjaardag</string>
+    <string name="birthday_hint">mm/dd/jjjj</string>
+    <string name="gender_label">⚧ Geslag</string>
+    <string name="male_option">♂ Manlik</string>
+    <string name="female_option">♀ Vroulik</string>
+    <string name="zodiac_label">♌ Sterreteken</string>
+    <string name="pet_label">🐾 Is jy ’n...</string>
+    <string name="dog_option">🐕 Hondmens</string>
+    <string name="cat_option">🐈 Katmens</string>
+    <string name="siblings_label">👫 Broers of Susters</string>
+    <string name="continent_label">🌍 Kontinent</string>
+    <string name="country_label">🏳️ Land</string>
+    <string name="movie_label">🎬 Gunsteling Fliekgenre</string>
+    <string name="color_label">🎨 Gunsteling Kleur</string>
+    <string name="religion_label">🙏 Godsdiens</string>
+    <string name="hobbies_label">🎯 Belangstellings en Stokperdjies</string>
+
+    <string name="hobby_fitness">Fiksheid</string>
+    <string name="hobby_music">Musiek</string>
+    <string name="hobby_art">Kuns</string>
+    <string name="hobby_cooking">Kook</string>
+    <string name="hobby_travel">Reis</string>
+    <string name="hobby_gaming">Speletjies</string>
+    <string name="hobby_reading">Lees</string>
+    <string name="hobby_sports">Sport</string>
+    <string name="hobby_dancing">Dans</string>
+    <string name="hobby_photography">Fotografie</string>
+    <string name="hobby_other">Ander</string>
+
+    <string name="food_label">🍕 Gunsteling Kos</string>
+    <string name="outgoing_label">🗣️ Hoe uitgaande is jy?</string>
+    <string name="complete_profile_button">Voltooi Profiel! 🎉</string>
+
+    <string name="color_red">Rooi</string>
+    <string name="color_green">Groen</string>
+    <string name="color_orange">Oranje</string>
+    <string name="color_blue">Blou</string>
+    <string name="color_yellow">Geel</string>
+    <string name="color_purple">Pers</string>
+    <string name="color_cyan">Siaan</string>
+    <string name="color_gray">Grys</string>
+    <!-- Questionnaire Screen End -->
+
+    <!-- Settings Screen End-->
+    <string name="settings_heading">Instellings</string>
+    <string name="app_language">Toep Taal</string>
+    <string name="notifications_title">Kennisgewings</string>
+    <string name="message_notifications">Boodskap Kennisgewings</string>
+    <string name="match_notifications">Pasmaat Kennisgewings</string>
+    <string name="friend_activity_notifications">Vriende Aktiwiteit Kennisgewings</string>
+
+    <string name="community_actions_title">Gemeenskap Aksies</string>
+    <string name="view_community_rules">Bekyk Gemeenskapsreëls</string>
+    <string name="block_report_users">Blokkeer / Rapporteer Gebruikers</string>
+
+    <string name="logout">Teken Uit</string>
+    <string name="delete_account">Vee Rekening Uit</string>
+    <!-- Settings Screen End-->
+
+    <string-array name="languages">
+        <item>Engels</item>
+        <item>Afrikaans</item>
+        <item>Zulu</item>
+    </string-array>
+
+    <string name="default_web_client_id">134621070266-ahgd1nfjr2qvnkpjfv6sh65cta0o3slu.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">123456789012345</string>
+</resources>

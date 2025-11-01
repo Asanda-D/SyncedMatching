@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Synced</string>
+    <string name="title_home">Ikhaya</string>
+    <string name="title_dashboard">Ideshibhodi</string>
+    <string name="title_notifications">Izaziso</string>
+    <!-- Notification permission messages -->
+    <string name="notifications_enabled">Izaziso zivuliwe!</string>
+    <string name="notifications_denied">Izaziso zikhubazekile!</string>
+    <string name="notifications_already_enabled">Izaziso sezivuliwe</string>
+    <string name="allow_notifications_message">Sicela uvumele izaziso ukuze uhlale uxhumekile</string>
+    <string name="hello_blank_fragment">Sawubona i-fragment engenalutho</string>
+    <string name="red_color">Umbala obomvu</string>
+    <string name="green_color">Umbala oluhlaza</string>
+    <string name="yellow_colour">Umbala ophuzi</string>
+    <string name="blue_color">Umbala oluhlaza okwesibhakabhaka</string>
+    <string name="purple_color">Umbala onsomi</string>
+    <string name="pink_color">Umbala opinki</string>
+    <string name="brown_color">Umbala onsundu</string>
+    <string name="dark_green_color">Umbala oluhlaza okumnyama</string>
+    <string name="dark_blue_color">Umbala oluhlaza okwesibhakabhaka okumnyama</string>
+    <string name="gray_color">Umbala ongwevu</string>
+    <string name="orange_color">Umbala owolintshi</string>
+    <string name="other_color">Okunye</string>
+    <string name="join_synced">Joyina i-Synced! 🎉</string>
+    <string name="choose_avatar">Khetha i-avatar yomlingiswa wakho:</string>
+    <string name="register">Bhalisa</string>
+    <string name="login_hint">Usunayo i-akhawunti? Ngena</string>
+
+    <!-- Avatar content descriptions -->
+    <string name="avatar1_desc">Inketho ye-avatar 1</string>
+    <string name="avatar2_desc">Inketho ye-avatar 2</string>
+    <string name="avatar3_desc">Inketho ye-avatar 3</string>
+    <string name="avatar4_desc">Inketho ye-avatar 4</string>
+    <string name="avatar5_desc">Inketho ye-avatar 5</string>
+    <string name="avatar6_desc">Inketho ye-avatar 6</string>
+    <string name="avatar7_desc">Inketho ye-avatar 7</string>
+    <string name="avatar8_desc">Inketho ye-avatar 8</string>
+
+    <string name="home">Ikhaya</string>
+    <string name="messages">Imiyalezo</string>
+    <string name="profile">Iphrofayela</string>
+    <string name="settings">Izilungiselelo</string>
+    <string name="help">Usizo</string>
+
+    <string name="_3h_ago">3h edlule</string>
+    <string name="we_should_definitely_watch_that_movie_together">Kumele sibuke leyo movie ndawonye!</string>
+    <string name="jordan_libra">Jordan (iLibra)</string>
+    <string name="_1h_ago">1h edlule</string>
+    <string name="thanks_for_the_book_recommendation">Ngiyabonga ngesiphakamiso sencwadi!</string>
+    <string name="sam_gemini">Sam (iGemini)</string>
+    <string name="_2m_ago">2m edlule</string>
+    <string name="i_love_the_office_want_to_play_a_game">Ngiyithanda i-The Office! Ufuna ukudlala umdlalo 🎉?</string>
+    <string name="alex_aries">Alex (i-Aries)</string>
+
+    <string name="email">I-imeyili</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="confirm_password">Qinisekisa iphasiwedi</string>
+    <string name="name">Igama</string>
+    <string name="todo">OKUZO KWENZWA</string>
+
+    <string name="biometric_title">Ukungena nge-Biometric</string>
+    <string name="biometric_subtitle">Sebenzisa iminwe noma ubuso ukuze ungene</string>
+    <string name="biometric_cancel">Khansela</string>
+
+    <!-- Choosing Intent Screen -->
+    <string name="back_to_questionnaire">← Buyela kuMbuzo</string>
+    <string name="choosing_title">Ufuna ukutholani? 👋</string>
+    <string name="choosing_subtitle">Khetha inhloso yakho enkulu (ungashintsha lokhu kamuva)</string>
+
+    <string name="friendship_title">🤝 Ubungani</string>
+    <string name="friendship_description">Thola abangani abahle ukuze nabelane ngezinto ndawonye</string>
+
+    <string name="dating_title">❤️ Ukuqomisana</string>
+    <string name="dating_description">Thola ubudlelwane bothando obunencazelo</string>
+
+    <string name="continue_to_matches">Qhubeka uye kuma-Matches! 💞</string>
+    <!-- Choosing Intent Screen End-->
+
+    <!-- Profile Screen -->
+    <string name="profile_picture_desc">Isithombe Somsebenzisi</string>
+    <string name="name_age">Igama, Iminyaka</string>
+    <string name="looking_for">Ufuna: …</string>
+    <string name="about_me">Mayelana Nami</string>
+    <string name="gender_label1">Ubulili:</string>
+    <string name="location_label">Indawo:</string>
+    <string name="hobbies_label1">Izinto Engizithokozelayo:</string>
+    <string name="edit_profile">Hlela Iphrofayela</string>
+    <!-- Profile Screen End-->
+
+    <!-- Questionnaire Screen -->
+    <string name="profile_questionnaire_title">Ifomu Lephrofayela</string>
+    <string name="birthday_label">🎂 Usuku Lokuzalwa</string>
+    <string name="birthday_hint">inyanga/usuku/unyaka</string>
+    <string name="gender_label">⚧ Ubulili</string>
+    <string name="male_option">♂ Owesilisa</string>
+    <string name="female_option">♀ Owesifazane</string>
+    <string name="zodiac_label">♌ Isibonakaliso Sezinkanyezi</string>
+    <string name="pet_label">🐾 Ungumuntu...</string>
+    <string name="dog_option">🐕 Othanda Izinja</string>
+    <string name="cat_option">🐈 Othanda Amakati</string>
+    <string name="siblings_label">👫 Abafowenu noma Odadewenu</string>
+    <string name="continent_label">🌍 Izwekazi</string>
+    <string name="country_label">🏳️ Izwe</string>
+    <string name="movie_label">🎬 Uhlobo Lwamafilimu Oluthandayo</string>
+    <string name="color_label">🎨 Umbala Owuthandayo</string>
+    <string name="religion_label">🙏 Inkolo</string>
+    <string name="hobbies_label">🎯 Izinto Ozithokozelayo</string>
+
+    <string name="hobby_fitness">Ukuzivocavoca</string>
+    <string name="hobby_music">Umculo</string>
+    <string name="hobby_art">Ubugcisa</string>
+    <string name="hobby_cooking">Ukupheka</string>
+    <string name="hobby_travel">Ukuhamba</string>
+    <string name="hobby_gaming">Ukudlala Imidlalo</string>
+    <string name="hobby_reading">Ukufunda</string>
+    <string name="hobby_sports">Ezemidlalo</string>
+    <string name="hobby_dancing">Ukudansa</string>
+    <string name="hobby_photography">Ukuthwebula Izithombe</string>
+    <string name="hobby_other">Okunye</string>
+
+    <string name="food_label">🍕 Ukudla Okuthandayo</string>
+    <string name="outgoing_label">🗣️ Uyakwazi kangakanani ukujabula nabanye?</string>
+    <string name="complete_profile_button">Qeda Iphrofayela! 🎉</string>
+
+    <string name="color_red">Obomvu</string>
+    <string name="color_green">Oluhlaza</string>
+    <string name="color_orange">Owolintshi</string>
+    <string name="color_blue">Oluhlaza okwesibhakabhaka</string>
+    <string name="color_yellow">Ophuzi</string>
+    <string name="color_purple">Onsomi</string>
+    <string name="color_cyan">Oluhlaza okotshani</string>
+    <string name="color_gray">Ompunga</string>
+
+    <!-- Questionnaire Screen End -->
+
+    <!-- Settings Screen -->
+    <string name="settings_heading">Izilungiselelo</string>
+    <string name="app_language">Ulimi Lohlelo</string>
+    <string name="notifications_title">Izaziso</string>
+    <string name="message_notifications">Izaziso Zomyalezo</string>
+    <string name="match_notifications">Izaziso Zokufanisa</string>
+    <string name="friend_activity_notifications">Izaziso Zomsebenzi Wongane</string>
+
+    <string name="community_actions_title">Izenzo Zomphakathi</string>
+    <string name="view_community_rules">Bheka Imithetho Yomphakathi</string>
+    <string name="block_report_users">Vimba / Bika Abasebenzisi</string>
+
+    <string name="logout">Phuma</string>
+    <string name="delete_account">Susa I-akhawunti</string>
+
+    <string-array name="languages">
+        <item>IsiNgisi</item>
+        <item>IsiBhunu</item>
+        <item>IsiZulu</item>
+    </string-array>
+
+    <string name="default_web_client_id">134621070266-ahgd1nfjr2qvnkpjfv6sh65cta0o3slu.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">123456789012345</string>
+</resources>

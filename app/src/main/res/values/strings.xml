@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Synced</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- Notification permission messages -->
+    <string name="notifications_enabled">Notifications enabled!</string>
+    <string name="notifications_denied">Notifications disabled!</string>
+    <string name="notifications_already_enabled">Notifications already enabled</string>
+    <string name="allow_notifications_message">Please allow notifications to stay connected</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="red_color">Red Color</string>
+    <string name="green_color">Green color</string>
+    <string name="yellow_colour">Yellow colour</string>
+    <string name="blue_color">Blue color</string>
+    <string name="purple_color">Purple color</string>
+    <string name="pink_color">Pink color</string>
+    <string name="brown_color">Brown color</string>
+    <string name="dark_green_color">Dark green color</string>
+    <string name="dark_blue_color">Dark blue color</string>
+    <string name="gray_color">Gray color</string>
+    <string name="orange_color">Orange color</string>
+    <string name="other_color">Other</string>
+    <string name="join_synced">Join Synced! 🎉</string>
+    <string name="choose_avatar">Choose your character avatar:</string>
+    <string name="register">Register</string>
+    <string name="login_hint">Already have an account? Login</string>
+
+    <!-- Avatar content descriptions -->
+    <string name="avatar1_desc">Avatar option 1</string>
+    <string name="avatar2_desc">Avatar option 2</string>
+    <string name="avatar3_desc">Avatar option 3</string>
+    <string name="avatar4_desc">Avatar option 4</string>
+    <string name="avatar5_desc">Avatar option 5</string>
+    <string name="avatar6_desc">Avatar option 6</string>
+    <string name="avatar7_desc">Avatar option 7</string>
+    <string name="avatar8_desc">Avatar option 8</string>
+    <string name="home">Home</string>
+    <string name="messages">Matches</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="_3h_ago">3h ago</string>
+    <string name="we_should_definitely_watch_that_movie_together">We should definitely watch that movie together!</string>
+    <string name="jordan_libra">Jordan (Libra)</string>
+    <string name="_1h_ago">1h ago</string>
+    <string name="thanks_for_the_book_recommendation">Thanks for the book recommendation!</string>
+    <string name="sam_gemini">Sam (Gemini)</string>
+    <string name="_2m_ago">2m ago</string>
+    <string name="i_love_the_office_want_to_play_a_game">I love The Office! Want to play a game 🎉? </string>
+    <string name="alex_aries">Alex (Aries)</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="todo">TODO</string>
+    <string name="biometric_title">Biometric Login</string>
+    <string name="biometric_subtitle">Use your fingerprint or face to login</string>
+    <string name="biometric_cancel">Cancel</string>
+
+    <!-- Choosing Intent Screen -->
+    <string name="back_to_questionnaire">← Back to Questionnaire</string>
+    <string name="choosing_title">What are you looking for? 👋</string>
+    <string name="choosing_subtitle">Choose your main intent (you can change this later)</string>
+
+    <!-- Friendship Card -->
+    <string name="friendship_title">🤝 Friendship</string>
+    <string name="friendship_description">Find amazing friends to share experiences with</string>
+
+    <!-- Dating Card -->
+    <string name="dating_title">❤️ Dating</string>
+    <string name="dating_description">Discover meaningful romantic connections</string>
+
+    <!-- Continue Button -->
+    <string name="continue_to_matches">Continue to Matches! 💞</string>
+    <!-- Choosing Intent Screen End -->
+
+    <!-- Profile Screen -->
+    <string name="profile_picture_desc">Profile Picture</string>
+    <string name="name_age">Name, Age</string>
+    <string name="looking_for">Looking for: …</string>
+    <string name="about_me">About Me</string>
+    <string name="gender_label1">Gender:</string>
+    <string name="location_label">Location:</string>
+    <string name="hobbies_label1">Hobbies:</string>
+    <string name="edit_profile">Edit Profile</string>
+    <!-- Profile Screen -->
+
+    <!-- Questionnaire Screen -->
+    <string name="profile_questionnaire_title">Profile Questionnaire</string>
+    <string name="birthday_label">🎂 Birthday</string>
+    <string name="birthday_hint">mm/dd/yyyy</string>
+    <string name="gender_label">⚧ Gender</string>
+    <string name="male_option">♂ Male</string>
+    <string name="female_option">♀ Female</string>
+    <string name="zodiac_label">♌ Zodiac Sign</string>
+    <string name="pet_label">🐾 Are you a...</string>
+    <string name="dog_option">🐕 Dog Person</string>
+    <string name="cat_option">🐈 Cat Person</string>
+    <string name="siblings_label">👫 Siblings</string>
+    <string name="continent_label">🌍 Continent</string>
+    <string name="country_label">🏳️ Country</string>
+    <string name="movie_label">🎬 Favorite Movie Genre</string>
+    <string name="color_label">🎨 Favorite Color</string>
+    <string name="religion_label">🙏 Religion</string>
+    <string name="hobbies_label">🎯 Hobbies and Interests</string>
+
+    <!-- Hobby Options -->
+    <string name="hobby_fitness">Fitness</string>
+    <string name="hobby_music">Music</string>
+    <string name="hobby_art">Art</string>
+    <string name="hobby_cooking">Cooking</string>
+    <string name="hobby_travel">Travel</string>
+    <string name="hobby_gaming">Gaming</string>
+    <string name="hobby_reading">Reading</string>
+    <string name="hobby_sports">Sports</string>
+    <string name="hobby_dancing">Dancing</string>
+    <string name="hobby_photography">Photography</string>
+    <string name="hobby_other">Other</string>
+
+    <string name="food_label">🍕 Favorite Food</string>
+    <string name="outgoing_label">🗣️ How outgoing are you?</string>
+    <string name="complete_profile_button">Complete Profile! 🎉</string>
+
+    <!-- Color descriptions -->
+    <string name="color_red">Red</string>
+    <string name="color_green">Green</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_purple">Purple</string>
+    <string name="color_cyan">Cyan</string>
+    <string name="color_gray">Gray</string>
+    <!-- Questionnaire Screen End -->
+
+    <!-- Settings Screen -->
+    <string name="settings_heading">Settings</string>
+    <string name="app_language">App Language</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="message_notifications">Message Notifications</string>
+    <string name="match_notifications">Match Notifications</string>
+    <string name="friend_activity_notifications">Friend Activity Notifications</string>
+
+    <string name="community_actions_title">Community Actions</string>
+    <string name="view_community_rules">View Community Rules</string>
+    <string name="block_report_users">Block / Report Users</string>
+
+    <string name="logout">Log Out</string>
+    <string name="delete_account">Delete Account</string>
+    <!-- Settings Screen End-->
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Afrikaans</item>
+        <item>Zulu</item>
+    </string-array>
+    <string name="default_web_client_id">
+    134621070266-ahgd1nfjr2qvnkpjfv6sh65cta0o3slu.apps.googleusercontent.com
+</string>
+
+
+</resources>

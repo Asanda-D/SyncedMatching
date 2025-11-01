@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_white_card"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:elevation="6dp">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_questionnaire_title"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:paddingBottom="16dp"/>
+
+            <!-- Birthday -->
+            <TextView
+                android:text="@string/birthday_label"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/birthdayInput"
+                android:hint="@string/birthday_hint"
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_input_bg"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:padding="12dp"/>
+            <!-- Gender -->
+            <TextView
+                android:text="@string/gender_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/genderRadioGroup"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/maleRadio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male_option"
+                    android:textColor="@android:color/black"/>
+
+                <RadioButton
+                    android:id="@+id/femaleRadio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female_option"
+                    android:textColor="@android:color/black"/>
+            </RadioGroup>
+            <!-- Zodiac -->
+            <TextView
+                android:text="@string/zodiac_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/zodiacSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"/>
+
+            <!-- Pet Preference -->
+            <TextView
+                android:text="@string/pet_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioGroup
+                android:id="@+id/petRadioGroup"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/dogRadio"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dog_option"
+                    android:textColor="@android:color/black"/>
+                <RadioButton
+                    android:id="@+id/catRadio"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cat_option"
+                    android:textColor="@android:color/black"/>
+            </RadioGroup>
+
+            <!-- Siblings -->
+            <TextView
+                android:text="@string/siblings_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/siblingSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"/>
+
+            <!-- Continent -->
+            <TextView
+                android:text="@string/continent_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/continentSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"/>
+
+            <!-- Country -->
+            <TextView
+                android:text="@string/country_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/countrySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"/>
+
+            <!-- Favorite Movie Genre -->
+            <TextView
+                android:text="@string/movie_label"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/movieSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"/>
+
+            <!-- Favorite Color -->
+            <TextView
+                android:text="@string/color_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <GridLayout
+                android:columnCount="4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="2"
+                android:layout_marginTop="8dp"
+                android:alignmentMode="alignMargins"
+                android:useDefaultMargins="true">
+
+                <Button
+                    android:id="@+id/redButton"
+                    android:backgroundTint="@android:color/holo_red_light"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_columnWeight="1"
+                    android:contentDescription="@string/color_red"/>
+                <Button
+                    android:id="@+id/greenButton"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_columnWeight="1"
+                    android:contentDescription="@string/color_green"/>
+                <Button
+                    android:id="@+id/orangeButton"
+                    android:backgroundTint="@android:color/holo_orange_light"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_columnWeight="1"
+                    android:contentDescription="@string/color_orange"/>
+                <Button
+                    android:id="@+id/blueButton"
+                    android:backgroundTint="@android:color/holo_blue_light"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_columnWeight="1"
+                    android:contentDescription="@string/color_blue"/>
+                <Button
+                    android:id="@+id/yellowButton"
+                    android:backgroundTint="@color/yellow"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_columnWeight="1"
+                    android:contentDescription="@string/color_yellow" />
+                <Button
+                    android:id="@+id/purpleButton"
+                    android:backgroundTint="#FFBB86FC"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_columnWeight="1"
+                    android:contentDescription="@string/color_purple" />
+                <Button
+                    android:id="@+id/cyanButton"
+                    android:backgroundTint="#FF00BCD4"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_columnWeight="1"
+                    android:contentDescription="@string/color_cyan" />
+                <Button
+                    android:id="@+id/grayButton"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_columnWeight="1"
+                    android:contentDescription="@string/color_gray" />
+            </GridLayout>
+
+            <!-- Religion -->
+            <TextView
+                android:text="@string/religion_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/religionSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"/>
+
+            <!-- Hobbies -->
+            <TextView
+                android:text="@string/hobbies_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <CheckBox android:id="@+id/fitnessCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_fitness" android:textColor="@android:color/black"/>
+                <CheckBox android:id="@+id/musicCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_music" android:textColor="@android:color/black"/>
+                <CheckBox android:id="@+id/artCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_art" android:textColor="@android:color/black"/>
+                <CheckBox android:id="@+id/cookingCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_cooking" android:textColor="@android:color/black"/>
+                <CheckBox android:id="@+id/travelCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_travel" android:textColor="@android:color/black"/>
+                <CheckBox android:id="@+id/gamingCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_gaming" android:textColor="@android:color/black"/>
+                <CheckBox android:id="@+id/readingCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_reading" android:textColor="@android:color/black"/>
+                <CheckBox android:id="@+id/sportsCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_sports" android:textColor="@android:color/black"/>
+                <CheckBox android:id="@+id/dancingCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_dancing" android:textColor="@android:color/black"/>
+                <CheckBox android:id="@+id/photographyCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_photography" android:textColor="@android:color/black"/>
+                <CheckBox android:id="@+id/otherCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hobby_other" android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- Favorite Food -->
+            <TextView
+                android:text="@string/food_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/foodSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"/>
+
+            <!-- Outgoing Slider -->
+            <TextView
+                android:text="@string/outgoing_label"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <SeekBar
+                android:id="@+id/outgoingSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"/>
+
+            <!-- Submit -->
+            <Button
+                android:id="@+id/completeProfileButton"
+                android:text="@string/complete_profile_button"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Button1"
+                android:textColor="@android:color/white"
+                android:padding="12dp"
+                app:cornerRadius="25dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

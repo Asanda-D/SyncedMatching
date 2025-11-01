@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Spacer to prevent overlap with status bar -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/tvTopMatchesHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔥 Top Matches"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Filter bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="12dp"
+        android:weightSum="4">
+
+        <!-- Gender filter -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"/>
+
+            <Spinner
+                android:id="@+id/spinnerGender"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/spinner_bg"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <!-- Continent filter -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continent"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"/>
+
+            <Spinner
+                android:id="@+id/spinnerContinent"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/spinner_bg"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <!-- Country filter -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"/>
+
+            <Spinner
+                android:id="@+id/spinnerCountry"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/spinner_bg"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <!-- Refresh button -->
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Refresh"
+            android:textSize="11sp"
+            android:layout_marginStart="4dp"/>
+    </LinearLayout>
+
+    <!-- Requests & Matches Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnViewRequests"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Requests"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnViewFriends"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Matches"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Matches list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMatches"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:padding="8dp"/>
+
+    <!-- Progress bar for loading -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+    <!-- Bottom Navigation Bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_menu"
+        android:background="@color/black"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:labelVisibilityMode="labeled" />
+
+</LinearLayout>
